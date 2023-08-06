@@ -15,5 +15,6 @@ while divisors < 500:
     divisors = numfactors(tri)
     triangleNum.append(divisors)
     i+=1
+    print(divisors)
 print(tri)
 print(triangleNum)
